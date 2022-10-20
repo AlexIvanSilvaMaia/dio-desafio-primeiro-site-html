@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Trilha HTML  DIO</title>
+    <link href="https: //fonts.googleapis.com/css2? family= Dancing+Script:wght@400;500 & família= Filósofo:ital,wght@0,700;1,400;1,700 &family= Trade+Winds & display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d2e231b624.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="base.css">
+    
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="menu">
+            
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="PaginaPrincipal.html" target="_blank"><strong>Página Principal</strong></a></li><br>
+                <li><a href="SobreClinica.html"target="_blank"><strong>Sobre a Clínica</strong></a></li><br>
+                <li><a href="HorarioAtendimento.html"target="_blank"><strong>Horário de Atendimento</strong></a></li><br>
+                <li><a href="Contato.html"target="_blank"><strong>Contato</strong></a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+
+
+            <section class="cabeçalho3">
+                 <h1><strong><i>Assintência em qualquer lugar</i></strong></h1>
+            </section>
+
+            </div>
+            <div class="content">
+             
+                <form name="cadastro" method="POST" onsubmit="alert('Formulário enviado') "action="http://meudesafio.com.br/cadastro">
+
+                 <table>
+                    <tr>
+                        <th>Nome:<input type="text" name="name"/></th><br>
+                    </tr>
+                        <tr><th></th></tr>
+                    <tr>
+                        <th>E-mail: <input type="email" name="email"/></th>
+                    </tr>
+                    </table><br>
+                                                   
+                    <label><strong>Assunto:</strong></label><br>
+                        <select nome="assunto">
+                            <option value="">Selecione o assunto</option><br>
+                            <option value="Administrativo">Administrativo</option>
+                            <option value="Financeiro">Financeiro</option>
+                            <option value="Agendamento">Agendamento</option>
+                            <option value="Reclamação">Reclamação</option>
+                        </select><br>
+                    <table>
+                        <tr>  
+                            <th><laber><strong>Mensagem</strong></laber></th>
+                            <textarea rows="10"  cols="50" name="mensagem"></textarea>
+                        </tr><br>
+                    <table>
+                        <tr>
+                            <th><button type="submit">Enviar</button><br></th><br>
+                            <th><button type="submit">Limpar</button><br></th><br>
+                        </tr> 
+                    </table><br>
+                    <table>
+                        <tr>
+                             <th><strong>Onde estamos</strong></th><br>
+                        </tr> 
+                        <tr> 
+                            <th><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.032176811216!2d-59.98632848588842!3d-3.0860870411061345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c1ade68458251%3A0xee446c1e429c81bd!2sAv.%20Cosme%20Ferreira%2C%20910%20-%20Aleixo%2C%20Manaus%20-%20AM%2C%2069055-010!5e0!3m2!1spt-BR!2sbr!4v1666220952458!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></th>
+                        </tr>
+                    </table><br><br>
+                </form>    
+            </div>            
+        <div class="footer">
+                
+            <div class="rodape">
+                            
+               <table summary="contatos"  width="900" >
+                     
+                   
+                     <tr>
+                        <th title="Central de atendimento"><strong>Central de atendimento</strong> </th>
+                        <th title="Atendimento ao assinate"><strong>Atendimento ao assinante</strong></th>
+                        <th title="Nosso endereço"><strong>Nosso endereço</strong></th>
+                    </tr>
+                    
+                    <tr>
+                        <td>Whatsapp: (92) 9988-8888</td>
+                        <td>Telefone: (92) 4004-4444</td>
+                        <td>Av Cosme Ferreira, 910 - Aleixo - Manaus, AM - CEP: 69083-000</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+    
